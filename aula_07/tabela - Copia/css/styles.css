@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.linha1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.borda{
+    height: 80px;
+    width: 80px;
+    margin:0px 0px 3px 20px;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+.number, .name, .sigla{
+  color: white;
+}
+.number{
+    margin: 2px 0px 0px 3px;
+}
+.name, .sigla{
+    display: flex;
+    justify-content: center;
+}
+.Hbutton{
+    height: 80px;
+    width: 80px;
+    margin:0px 0px 3px 10px;
+    border: 1px solid white;
+    border-radius: 2px;
+}

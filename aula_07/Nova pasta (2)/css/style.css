@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.linha1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.ButtonH{
+    display: flex;
+    height: 80px;
+    width: 80px;
+    margin:0px 0px 3px 10px;
+    border: 2px solid white;
+    border-radius: 2px;
+}
+.H{
+    display: flex;
+}
+
+.DentroH{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:10px 0px 0px 15px;
+}
+
+.numberH, .nameH, .siglaH{
+    display: flex;
+    color: white;
+    justify-content: center;
+  }
