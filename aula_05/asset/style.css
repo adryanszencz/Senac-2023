@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: black;
+
+}
+.inicio{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+.logo{
+    display: flex;
+
+}
+.temas{
+    display: flex;
+
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>calc</title>
+</head>
+<body>
+    <div class="container">
+        <div class="inicio">
+            <div class="calc">
+                <h1>calc</h1>
+            </div>
+            <div class="temas">
+                <div class="theme">
+                    <p>THEME</p>
+                </div>
+                <div>
+                <div class="numeros">
+                    <h6>1</h6>
+                    <h6>2</h6>
+                    <h6>3</h6>
+                </div>
+                <div class="fora" id="tema">
+                    <div class="dentro" onclick="mudarTema()"></div>
+                </div>        
+            </div>
+            </div>
+        </div>
+        <div class="resultados">
+            <input type="text" disabled="true" placeholder="0"> 
+        </div>
+        <div class="teclas">
+            <div class="linha1">
+            <div class="tecla7">
+                <button class="sete">7</button>
+            </div>
+            <div class="tecla8">
+                <button class="oito">8</button>
+            </div>
+            <div class="tecla9">
+                <button class="nove">9</button>
+            </div>
+            <div class="teclaDel">
+                <button class="del">DEL</button>
+            </div>
+        </div>
+        <div class="linha2">
+            <div class="tecla4">
+                <button class="quatro">4</button>
+            </div>
+            <div class="tecla5">
+                <button class="cinco">5</button>
+            </div>
+            <div class="tecla6">
+                <button class="seis">6</button>
+            </div>
+            <div class="teclaMais">
+                <button class="mais">+</button>
+            </div>
+        </div>
+        <div class="linha3">
+            <div class="tecla1">
+                <button class="um">1</button>
+            </div>
+            <div class="tecla2">
+                <button class="dois">2</button>
+            </div>
+            <div class="tecla3">
+                <button class="tres">3</button>
+            </div>
+            <div class="teclaMenos">
+                <button class="menos">-</button>
+            </div>
+        </div>
+        <div class="linha4">
+            <div class="teclaPonto">
+                <button class="ponto">.</button>
+            </div>
+            <div class="tecla0">
+                <button class="zero">0</button>
+            </div>
+            <div class="teclaDivisao">
+                <button class="divisao">/</button>
+            </div>
+            <div class="teclaMutipli">
+                <button class="mutipli">x</button>
+            </div>
+        </div>
+        <div class="linha5">
+            <div class="teclaReset">
+                <button class="reset">RESET</button>
+            </div>
+            <div class="tecla=">
+                <button class="igual">=</button>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+    <script>
+        var justify = 'left'
+        const setTheme = theme => document.documentElement.className = theme;
+        
+        function mudarTema() {
+            if (justify == 'left') {
+                document.getElementById("tema").style.justifyContent = "center";
+                justify = 'center'
+                setTheme('temadois')
+            } else if (justify == 'center') {
+                document.getElementById("tema").style.justifyContent = "right";
+                justify = 'right'
+                setTheme('tematres')
+            } else if (justify == 'right') {
+                document.getElementById("tema").style.justifyContent = "left";
+                justify = 'left'
+                setTheme('temaum')
+            }
+        }
+    </script>
+</body>
+</html>

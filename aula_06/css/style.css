@@ -1,0 +1,239 @@
+:root,
+    :root.temaum{
+        --colorbody: #3B4664; 
+        --colorinicio:white; 
+        --foraswite:#252D45;
+        --dentoswite:#CD433A;
+        --inputback:#181F32;
+        --inputcolor:white;
+        --containeteclas:#252D44;
+        --corteclas:#EAE3DB;
+        --cornumeros:black; 
+        --corsombra:#B1A49F;
+        --corbackdel:#657296;
+        --cordel:white; 
+        --corsombradel:#414e70;
+        --corbackreset:#657296 ; 
+        --correset:white; 
+        --corsombrareset:#414e70;
+        --corbackigual:#D13F30;
+        --corigual:white;
+        --corsombraigual:#722725;
+        --teclasnuberhouver:#f8f5f2;
+        --tecladelresethouver:#8893af;
+        --teclaigualhouver:#d45749;
+    }
+    :root.temadois{
+        --colorbody: #E7E7E7;
+        --colorinicio:black; 
+        --foraswite:#D3CECD; 
+        --dentoswite:#C95500;
+        --inputback:#EfEfEf; 
+        --inputcolor:black; 
+        --containeteclas:#D5CECE; 
+        --corteclas:#E7E3E0;
+        --cornumeros:black;
+        --corsombra:#A5A199;
+        --corbackdel:#3B8087; 
+        --cordel:white; 
+        --corsombradel:#1F5E63;
+        --corbackreset:#3B8087 ;
+        --correset:white; 
+        --corsombrareset:#1F5E63; 
+        --corbackigual:#c85401; 
+        --corigual:white;
+        --corsombraigual:#904714;
+        --teclasnuberhouver:#f5f0ed;
+        --tecladelresethouver:#54949b; 
+        --teclaigualhouver:#cc6b25; 
+    }
+    :root.tematres{ 
+        --colorbody: #170629; 
+        --colorinicio:#FCE747; 
+        --foraswite:#1D0836;
+        --dentoswite:#01DFCE; 
+        --inputback:#1D0836; 
+        --inputcolor:#FCE747;
+        --containeteclas:#1D0735;
+        --corteclas:#331849; 
+        --cornumeros:#FCE747;
+        --corsombra:#702A89;
+        --corbackdel:#55097E; 
+        --cordel:white; 
+        --corsombradel:#702A89; 
+        --corbackreset:#55097E ; 
+        --correset:white;
+        --corsombrareset:#702A89;
+        --corbackigual:#01DFCE;
+        --corigual:black; 
+        --corsombraigual:#6cd5db;
+        --teclasnuberhouver:#5a327a; 
+        --tecladelresethouver:#75289e;
+        --teclaigualhouver:#29dfd0;
+    }
+    
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--colorbody);
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+}
+.temas{
+    display:flex ;
+    flex-direction: row;
+}
+.theme{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    color:var(--colorinicio);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    padding: 10px;
+}
+.inicio{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-top: 7% ;
+}
+.calc{
+    display: flex;
+    color: var(--colorinicio);
+    justify-content: flex-start;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.fora {
+    width: 50px;
+    height: 20px;
+    border-radius: 40px;
+    background-color: var(--foraswite);
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.dentro {
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    background-color: var(--dentoswite);
+    cursor: pointer;
+}
+.numeros {
+    color: var(--colorinicio);
+    display: flex;
+    justify-content: space-around;
+    font-size:15px;
+    padding: 2px;
+}
+
+input{
+    width: 400px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: var(--inputback) ;
+    font-size: 45px;
+    text-align: right;
+    color: var(--inputcolor);
+    border: 1px solid var(--inputback);
+}
+.teclas{
+    display: flex;
+    width: 400px;
+    height: 370px;
+    background-color: var(--containeteclas);
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 15px;
+    flex-direction: column;
+
+}
+.linha1, .linha2, .linha3, .linha4, .linha5{
+        display: flex;
+        flex-direction: row;
+}
+.tecla0, .tecla1,.tecla2,.tecla3,.tecla4,.tecla5,.tecla6,.tecla7,.tecla8,.tecla9,.teclaMais,.teclaMenos,.teclaDivisao,.teclaMutipli,.teclaPonto{
+    margin: 10px;
+
+}
+
+.zero,.um, .dois, .tres, .quatro, .cinco, .seis, .sete, .oito, .nove, .mais, .menos, .divisao, .mutipli, .ponto{ 
+    height: 50px;
+    width: 72px;
+    background-color: var(--corteclas);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid var(--corteclas);
+    font-size: 25px;
+    color: var(--cornumeros);
+    border-bottom: 4px solid var(--corsombra);
+}
+.del{
+    height: 50px;
+    width: 70px;
+    background-color: var(--corbackdel);
+    color: var(--cordel);
+    border: 1px solid var(--corbackdel);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    border-bottom: 4px solid var(--corsombradel);
+}
+.reset{
+    height: 50px;
+    width: 170px;
+    background-color: var(--corbackreset);
+    display: flex;
+    border: 1px solid var(--corbackreset);
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: var(--correset);
+    margin-left: 10px;
+    font-size: 15px;
+    border-bottom: 4px solid var(--corsombrareset);
+}
+.igual{
+    height: 50px;
+    width: 170px;
+    background-color: var(--corbackigual);
+    display: flex;
+    border: 1px solid var(--corbackigual);
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: var(--corigual);
+    margin-left: 10px;
+    font-size: 25px;
+    border-bottom: 4px solid var(--corsombraigual);
+}
+
+.zero:hover,.um:hover, .dois:hover, .tres:hover, .quatro:hover, .cinco:hover, .seis:hover, .sete:hover, .oito:hover, .nove:hover, .mais:hover, .menos:hover, .divisao:hover, .mutipli:hover, .ponto:hover {
+    background-color: var(--teclasnuberhouver);
+}
+.del:hover, .reset:hover{
+    background-color: var(--tecladelresethouver);
+}
+.igual:hover{
+    background-color:var(--teclaigualhouver);
+}

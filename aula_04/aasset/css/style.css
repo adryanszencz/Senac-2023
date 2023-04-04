@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.conteine{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cima, .meio, .baixo{
+    display: flex;
+}
+
+.bloco1, .bloco2, .bloco3, .bloco4, .bloco5, .bloco6, .bloco7, .bloco8, .bloco9{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 5px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.bloco2{
+    display: flex;
+    align-items: center;
+}
+.bloco3{
+    display: flex;
+    align-items: end;
+}
+.bloco4{
+    display: flex;
+    justify-content: center;
+}
+.bloco5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bloco6{
+    display: flex;
+    align-items: end;
+    justify-content:center;
+}
+.bloco7{
+    display: flex;
+    justify-content: end;
+}
+.bloco8{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.bloco9{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.bloquinho{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 25px;
+    font-size: 50px;
+}
