@@ -17,21 +17,21 @@
     /* Alkaline Earth Metal*/
     --corAEM:#ffebeb;
     --corDesciçãoAEM:#D60024;
-    /* Noble Gas*/
-    --corNg:#ffebee;
-    --corDesciçãoNg:#d33670;
-    /* Noble Gas*/
-    --corNg:#ffebee;
-    --corDesciçãoNg:#d33670;
-    /* Noble Gas*/
-    --corNg:#ffebee;
-    --corDesciçãoNg:#d33670;
-    /* Noble Gas*/
-    --corNg:#ffebee;
-    --corDesciçãoNg:#d33670;
-    /* Noble Gas*/
-    --corNg:#ffebee;
-    --corDesciçãoNg:#d33670;
+    /* Post-transition Metal*/
+    --corPTM:#DCFAEB;
+    --corDesciçãoPTM:#002c00;
+    /* Transition Metal*/
+    --corTM:#f5ecfd;;
+    --corDesciçãoTM:#6536ec;
+    /* Lanthanide*/
+    --corL:#E6f5ff;
+    --corDesciçãoL:#2a5774;
+    /* Actinide*/
+    --corA:#ffeadb;
+    --corDesciçãoA:#C73200;
+    /* Unknown Chemical Properties*/
+    --corUCP:#e9e9ec;
+    --corDesciçãoUCP:#3f374f;
 
 
 }
@@ -133,7 +133,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-            width: 75px;
+        width: 75px;
         height: 75px;
         background-color: var(--corAM);
             
@@ -148,6 +148,111 @@
     }
     .sigla3,.sigla11,.sigla19,.sigla37,.sigla55,.sigla87, 
     .name3,.name11,.name19,.name37,.name55,.name87{
+        display: flex;
+        justify-content: center;
+        margin: 0px 1px 0px 0px;
+    }
+
+    /* Alkaline Earth Metal*/
+        
+    .Button4 ,.Button12 ,.Button20,.Button38,.Button56,.Button88 {
+        display: flex;
+        height: 80px;
+        width: 80px;
+        margin:0px 0px 3px 10px;
+        background-color: var(--corAEM);
+        border: 1px solid var(--corAEM);
+        cursor: pointer;
+    }
+    .Dentro4, .Dentro12, .Dentro20,.Dentro38, .Dentro56, .Dentro88{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 75px;
+        height: 75px;
+        background-color: var(--corAEM);
+            
+    }
+    .number4,.number12,.number20,.number38,.number56,.number88, 
+    .name4,.name12,.name20,.name38,.name56,.name88,
+    .sigla4,.sigla12,.sigla20,.sigla38,.sigla56,.sigla88{
+        display: flex;
+        color: var(--corDesciçãoAEM);
+        margin-left: 10px;
+        background-color: var(--corAEM);
+    }
+    .sigla4,.sigla12,.sigla20,.sigla38,.sigla56,.sigla88, 
+    .name4,.name12,.name20,.name38,.name56,.name88{
+        display: flex;
+        justify-content: center;
+        margin: 0px 1px 0px 0px;
+    }
+
+    /* Metalloid*/
+        
+    .Button5 ,.Button14 ,.Button32,.Button33,.Button51,.Button52 {
+        display: flex;
+        height: 80px;
+        width: 80px;
+        margin:0px 0px 3px 10px;
+        background-color: var(--corM);
+        border: 1px solid var(--corM);
+        cursor: pointer;
+    }
+    .Dentro5, .Dentro14, .Dentro32,.Dentro33, .Dentro51, .Dentro52{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 75px;
+        height: 75px;
+        background-color: var(--corM);
+            
+    }
+    .number5,.number14,.number32,.number33,.number51,.number52, 
+    .name5,.name14,.name32,.name33,.name51,.name52,
+    .sigla5,.sigla14,.sigla32,.sigla33,.sigla51,.sigla52{
+        display: flex;
+        color: var(--corDesciçãoM);
+        margin-left: 10px;
+        background-color: var(--corM);
+    }
+    .sigla5,.sigla14,.sigla32,.sigla33,.sigla51,.sigla52, 
+    .name5,.name14,.name32,.name33,.name51,.name52{
+        display: flex;
+        justify-content: center;
+        margin: 0px 1px 0px 0px;
+    }
+
+    /* Post-transition Metal*/
+        
+    .Button13 ,.Button31 ,.Button49,.Button50,.Button81,.Button82,.Button83,.Button84,.Button85 {
+        display: flex;
+        height: 80px;
+        width: 80px;
+        margin:0px 0px 3px 10px;
+        background-color: var(--corPTM);
+        border: 1px solid var(--corPTM);
+        cursor: pointer;
+    }
+    .Dentro13, .Dentro31, .Dentro49,.Dentro50,.Dentro81, .Dentro82, .Dentro83, .Dentro84, .Dentro85{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 75px;
+        height: 75px;
+        background-color: var(--corPTM);
+            
+    }
+    .number13,.number31,.number49,.number50,.number81,.number82,.number83,.number84,.number85,
+    .name13,.name31,.name49,.name50,.name81,.name82,.name83,.name84,.name85,
+    .sigla13,.sigla31,.sigla49,.sigla50,.sigla81,.sigla82,.sigla83,.sigla84,.sigla85{
+        display: flex;
+        color: var(--corDesciçãoPTM);
+        margin-left: 10px;
+        background-color: var(--corPTM);
+    }
+    .sigla13,.sigla31,.sigla49,.sigla50,.sigla81,.sigla82, .sigla83,.sigla84,.sigla85,
+    .name13,.name31,.name49,.name50,.name81,.name82,.name83,.name84,.name85{
         display: flex;
         justify-content: center;
         margin: 0px 1px 0px 0px;
