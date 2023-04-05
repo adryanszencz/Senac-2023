@@ -9,35 +9,33 @@
     --corRN:#e6f0ff;
     --corDesciçãoRN:#0060f0;
     /* Noble Gas*/
+    --corNG:#ffebee;
+    --corDesciçãoNG:#d33670;
+    /* Alkali Metal*/
+    --corAM:#DBF8FF;
+    --corDesciçãoAM:#00748B;
+    /* Noble Gas*/
+    --corNg:#ffebee;
+    --corDesciçãoAM:#d33670;
+    /* Noble Gas*/
     --corNg:#ffebee;
     --corDesciçãoNg:#d33670;
-    /* Alkali Metal*/
+    /* Noble Gas*/
     --corNg:#ffebee;
     --corDesciçãoNg:#d33670;
-    /* Alkali Metal*/
+    /* Noble Gas*/
     --corNg:#ffebee;
     --corDesciçãoNg:#d33670;
-    /* Alkali Metal*/
+    /* Noble Gas*/
     --corNg:#ffebee;
     --corDesciçãoNg:#d33670;
-    /* Alkali Metal*/
-    --corNg:#ffebee;
-    --corDesciçãoNg:#d33670;
-    /* Alkali Metal*/
-    --corNg:#ffebee;
-    --corDesciçãoNg:#d33670;
-    /* Alkali Metal*/
-    --corNg:#ffebee;
-    --corDesciçãoNg:#d33670;
-    /* Alkali Metal*/
-    --corNg:#ffebee;
-    --corDesciçãoNg:#d33670;
-    /* Alkali Metal*/
+    /* Noble Gas*/
     --corNg:#ffebee;
     --corDesciçãoNg:#d33670;
 
+
 }
-@media (max-width:500px){
+@media (max-width:2000px){
     
 
 .container{
@@ -51,9 +49,9 @@
     margin-top: 30px;
 }
 
-/* Molecula H*/
+/* Reactive Nonmetal*/
 
-.ButtonH{
+.Button1 ,.Button6 ,.Button7,.Button8,.Button9 ,.Button15,.Button16 ,.Button17 ,.Button34,.Button35 ,.Button53  {
     display: flex;
     height: 80px;
     width: 80px;
@@ -62,7 +60,7 @@
     border: 1px solid var(--corRN);
     cursor: pointer;
 }
-.DentroH{
+.Dentro1, .Dentro6, .Dentro7,.Dentro8, .Dentro9, .Dentro15,.Dentro16, .Dentro17, .Dentro34,.Dentro35, .Dentro53 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,55 +69,19 @@
     background-color: var(--corRN);
  
 }
-.numberH, .nameH, .siglaH{
+.number1,.number6,.number7,.number8,.number9,.number15,.number16,.number17,.number34,.number35,.number53, 
+.name1,.name6,.name7,.name8,.name9,.name15,.name16,.name17,.name34,.name35,.name53,
+.sigla1,.sigla6,.sigla7,.sigla8,.sigla9,.sigla15,.sigla16,.sigla17,.sigla34,.sigla35,.sigla53{
     display: flex;
     color: var(--corDesciçãoRN);
     margin-left: 10px;
     background-color: var(--corRN);
   }
-  .siglaH, .nameH{
+  .sigla1,.sigla6,.sigla7,.sigla8,.sigla9,.sigla15,.sigla16,.sigla17,.sigla34,.sigla35,.sigla53, 
+  .name1,.name6,.name7,.name8,.name9,.name15,.name16,.name17,.name34,.name35,.name53{
     display: flex;
     justify-content: center;
     margin: 0px 1px 0px 0px;
   }
-
-
-/* Molecula He*/
-
-.ButtonHe{
-    display: flex;
-    height: 80px;
-    width: 80px;
-    margin:0px 0px 3px 10px;
-    background-color: var(--corNg);
-    border: 1px solid var(--corNg);
-    cursor: pointer;
-}
-.DentroHe{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 75px;
-    height: 75px;
-    background-color: var(--corNg);
- 
-}
-.numberHe, .nameHe, .siglaHe{
-    display: flex;
-    color: var(--corDesciçãoNg);
-    margin-left: 10px;
-    background-color: var(--corNg);
-  }
-  .siglaHe, .nameH{
-    display: flex;
-    justify-content: center;
-    margin: 0px 1px 0px 0px;
-  }
-.nameHe{
-    display: flex;
-    margin-left: 23px;
-}
-
-
 
 }
