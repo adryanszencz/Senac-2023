@@ -14,9 +14,9 @@
     /* Alkali Metal*/
     --corAM:#DBF8FF;
     --corDesciçãoAM:#00748B;
-    /* Noble Gas*/
-    --corNg:#ffebee;
-    --corDesciçãoAM:#d33670;
+    /* Alkaline Earth Metal*/
+    --corAEM:#ffebeb;
+    --corDesciçãoAEM:#D60024;
     /* Noble Gas*/
     --corNg:#ffebee;
     --corDesciçãoNg:#d33670;
@@ -35,53 +35,121 @@
 
 
 }
-@media (max-width:2000px){
+@media (max-width:500px){
     
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .linha1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 30px;
+    }
 
-.container{
-    display: flex;
-    flex-direction: column;
-}
-.linha1{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 30px;
-}
+    /* Reactive Nonmetal*/
 
-/* Reactive Nonmetal*/
-
-.Button1 ,.Button6 ,.Button7,.Button8,.Button9 ,.Button15,.Button16 ,.Button17 ,.Button34,.Button35 ,.Button53  {
-    display: flex;
-    height: 80px;
-    width: 80px;
-    margin:0px 0px 3px 10px;
-    background-color: var(--corRN);
-    border: 1px solid var(--corRN);
-    cursor: pointer;
-}
-.Dentro1, .Dentro6, .Dentro7,.Dentro8, .Dentro9, .Dentro15,.Dentro16, .Dentro17, .Dentro34,.Dentro35, .Dentro53 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 75px;
-    height: 75px;
-    background-color: var(--corRN);
- 
-}
-.number1,.number6,.number7,.number8,.number9,.number15,.number16,.number17,.number34,.number35,.number53, 
-.name1,.name6,.name7,.name8,.name9,.name15,.name16,.name17,.name34,.name35,.name53,
-.sigla1,.sigla6,.sigla7,.sigla8,.sigla9,.sigla15,.sigla16,.sigla17,.sigla34,.sigla35,.sigla53{
-    display: flex;
-    color: var(--corDesciçãoRN);
-    margin-left: 10px;
-    background-color: var(--corRN);
-  }
-  .sigla1,.sigla6,.sigla7,.sigla8,.sigla9,.sigla15,.sigla16,.sigla17,.sigla34,.sigla35,.sigla53, 
-  .name1,.name6,.name7,.name8,.name9,.name15,.name16,.name17,.name34,.name35,.name53{
-    display: flex;
-    justify-content: center;
-    margin: 0px 1px 0px 0px;
-  }
-
+    .Button1 ,.Button6 ,.Button7,.Button8,.Button9 ,.Button15,.Button16 ,.Button17 ,.Button34,.Button35 ,.Button53  {
+        display: flex;
+        height: 80px;
+        width: 80px;
+        margin:0px 0px 3px 10px;
+        background-color: var(--corRN);
+        border: 1px solid var(--corRN);
+        cursor: pointer;
+    }
+    .Dentro1, .Dentro6, .Dentro7,.Dentro8, .Dentro9, .Dentro15,.Dentro16, .Dentro17, .Dentro34,.Dentro35, .Dentro53 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 75px;
+        height: 75px;
+        background-color: var(--corRN);
+    
+    }
+    .number1,.number6,.number7,.number8,.number9,.number15,.number16,.number17,.number34,.number35,.number53, 
+    .name1,.name6,.name7,.name8,.name9,.name15,.name16,.name17,.name34,.name35,.name53,
+    .sigla1,.sigla6,.sigla7,.sigla8,.sigla9,.sigla15,.sigla16,.sigla17,.sigla34,.sigla35,.sigla53{
+        display: flex;
+        color: var(--corDesciçãoRN);
+        margin-left: 10px;
+        background-color: var(--corRN);
+    }
+    .sigla1,.sigla6,.sigla7,.sigla8,.sigla9,.sigla15,.sigla16,.sigla17,.sigla34,.sigla35,.sigla53, 
+    .name1,.name6,.name7,.name8,.name9,.name15,.name16,.name17,.name34,.name35,.name53{
+        display: flex;
+        justify-content: center;
+        margin: 0px 1px 0px 0px;
+    }
+        
+    /* Noble Gas*/
+        
+    .Button2 ,.Button10 ,.Button18,.Button36,.Button54,.Button86 {
+        display: flex;
+        height: 80px;
+        width: 80px;
+        margin:0px 0px 3px 10px;
+        background-color: var(--corNG);
+        border: 1px solid var(--corNG);
+        cursor: pointer;
+    }
+    .Dentro2, .Dentro10, .Dentro18,.Dentro36, .Dentro54, .Dentro86{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 75px;
+        height: 75px;
+        background-color: var(--corNG);
+        
+    }
+    .number2,.number10,.number18,.number36,.number54,.number86, 
+    .name2,.name10,.name18,.name36,.name54,.name86,
+    .sigla2,.sigla10,.sigla18,.sigla36,.sigla54,.sigla86{
+        display: flex;
+        color: var(--corDesciçãoNG);
+        margin-left: 10px;
+        background-color: var(--corNG);
+    }
+    .sigla2,.sigla10,.sigla18,.sigla36,.sigla54,.sigla86, 
+    .name2,.name10,.name18,.name36,.name54,.name86{
+        display: flex;
+        justify-content: center;
+        margin: 0px 1px 0px 0px;
+    }
+    
+    /* Alkali Metal*/
+        
+    .Button3 ,.Button11 ,.Button19,.Button37,.Button55,.Button87 {
+        display: flex;
+        height: 80px;
+        width: 80px;
+        margin:0px 0px 3px 10px;
+        background-color: var(--corAM);
+        border: 1px solid var(--corAM);
+        cursor: pointer;
+    }
+    .Dentro3, .Dentro11, .Dentro19,.Dentro37, .Dentro55, .Dentro87{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+            width: 75px;
+        height: 75px;
+        background-color: var(--corAM);
+            
+    }
+    .number3,.number11,.number19,.number37,.number55,.number87, 
+    .name3,.name11,.name19,.name37,.name55,.name87,
+    .sigla3,.sigla11,.sigla19,.sigla37,.sigla55,.sigla87{
+        display: flex;
+        color: var(--corDesciçãoAM);
+        margin-left: 10px;
+        background-color: var(--corAM);
+    }
+    .sigla3,.sigla11,.sigla19,.sigla37,.sigla55,.sigla87, 
+    .name3,.name11,.name19,.name37,.name55,.name87{
+        display: flex;
+        justify-content: center;
+        margin: 0px 1px 0px 0px;
+    }
 }
