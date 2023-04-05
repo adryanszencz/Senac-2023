@@ -4,6 +4,19 @@
     box-sizing: border-box;
     background-color: black;
 }
+:root{
+    /* Reactive Nonmetal*/
+    --corRN:#e6f0ff;
+    --corDesciçãoRN:#0060f0;
+    /* Noble Gas*/
+    --corNg:#ffebee;
+    --corDesciçãoNg:#d33670;
+    /* Alkali Metal*/
+
+}
+@media (max-width:500px){
+    
+
 .container{
     display: flex;
     flex-direction: column;
@@ -14,27 +27,76 @@
     flex-direction: column;
     margin-top: 30px;
 }
+
+/* Molecula H*/
+
 .ButtonH{
     display: flex;
     height: 80px;
     width: 80px;
     margin:0px 0px 3px 10px;
-    border: 2px solid white;
-    border-radius: 2px;
+    background-color: var(--corRN);
+    border: 1px solid var(--corRN);
+    cursor: pointer;
 }
-.H{
-    display: flex;
-}
-
 .DentroH{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin:10px 0px 0px 15px;
+    width: 75px;
+    height: 75px;
+    background-color: var(--corRN);
+ 
 }
-
 .numberH, .nameH, .siglaH{
     display: flex;
-    color: white;
-    justify-content: center;
+    color: var(--corDesciçãoRN);
+    margin-left: 10px;
+    background-color: var(--corRN);
   }
+  .siglaH, .nameH{
+    display: flex;
+    justify-content: center;
+    margin: 0px 1px 0px 0px;
+  }
+
+
+/* Molecula He*/
+
+.ButtonHe{
+    display: flex;
+    height: 80px;
+    width: 80px;
+    margin:0px 0px 3px 10px;
+    background-color: var(--corNg);
+    border: 1px solid var(--corNg);
+    cursor: pointer;
+}
+.DentroHe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75px;
+    height: 75px;
+    background-color: var(--corNg);
+ 
+}
+.numberHe, .nameHe, .siglaHe{
+    display: flex;
+    color: var(--corDesciçãoNg);
+    margin-left: 10px;
+    background-color: var(--corNg);
+  }
+  .siglaHe, .nameH{
+    display: flex;
+    justify-content: center;
+    margin: 0px 1px 0px 0px;
+  }
+.nameHe{
+    display: flex;
+    margin-left: 23px;
+}
+
+
+
+}
