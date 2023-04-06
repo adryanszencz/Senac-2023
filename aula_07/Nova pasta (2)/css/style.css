@@ -17,6 +17,9 @@
     /* Alkaline Earth Metal*/
     --corAEM:#ffebeb;
     --corDesciçãoAEM:#D60024;
+    /* Metalloid*/
+    --corM:#fef9e6;
+    --corDesciçãoM:#AB7931;
     /* Post-transition Metal*/
     --corPTM:#DCFAEB;
     --corDesciçãoPTM:#002c00;
@@ -225,6 +228,41 @@
 
     /* Post-transition Metal*/
         
+    .Button21 ,.Button22 ,.Button23,.Button24,.Button25,.Button26 ,.Button27,.Button28 ,.Button29 ,.Button30,.Button39,.Button40 ,.Button41 ,.Button42,.Button43,.Button44 ,.Button45 ,.Button46,.Button47,.Button48,.Button72 ,.Button73,.Button74 ,.Button75 ,.Button76,.Button77,.Button78 ,.Button79 ,.Button80,.Button104 ,.Button105 ,.Button106,.Button107,.Button108  {
+        display: flex;
+        height: 80px;
+        width: 80px;
+        margin:0px 0px 3px 10px;
+        background-color: var(--corPTM);
+        border: 1px solid var(--corPTM);
+        cursor: pointer;
+    }
+    .Dentro21, .Dentro22, .Dentro23,.Dentro24, .Dentro25, .Dentro26,.Dentro27, .Dentro28, .Dentro29,.Dentro30,.Dentro39, .Dentro40, .Dentro41,.Dentro42, .Dentro43,.Dentro44, .Dentro45, .Dentro46,.Dentro47, .Dentro48, .Dentro72,.Dentro73, .Dentro74, .Dentro75,.Dentro76,.Dentro77, .Dentro78, .Dentro79,.Dentro80, .Dentro104, .Dentro105,.Dentro106, .Dentro107,.Dentro108{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 75px;
+        height: 75px;
+        background-color: var(--corPTM);
+            
+    }
+    .number21,.number22,.number23,.number24,.number25,.number26,.number27,.number28,.number29,.number30,.number39,.number40,.number41,.number42,.number43,.number44,.number45,.number46,.number47,.number48,.number72,.number73,.number74,.number75,.number76,.number77,.number78,.number79,.number80,.number104,.number105,.number106,.number107,.number108,
+    .name21,.name22,.name23,.name24,.name25,.name26,.name27,.name28,.name29,.name30,.name39,.name40,.name41,.name42,.name43,.name44,.name45,.name46,.name47,.name48,.name72,.name73,.name74,.name75,.name76,.name77,.name78,.name79,.name80,.name104,.name105,.name106,.name107,.name108,
+    .sigla21,.sigla22,.sigla23,.sigla24,.sigla25,.sigla26,.sigla27,.sigla28,.sigla29,.sigla30,.sigla39,.sigla40,.sigla41,.sigla42,.sigla43,.sigla44,.sigla45,.sigla46,.sigla47,.sigla48,.sigla72,.sigla73,.sigla74,.sigla75,.sigla76,.sigla77,.sigla78,.sigla79,.sigla80,.sigla104,.sigla105,.sigla106,.sigla107,.sigla108{
+        display: flex;
+        color: var(--corDesciçãoPTM);
+        margin-left: 10px;
+        background-color: var(--corPTM);
+    }
+    .sigla21,.sigla22,.sigla23,.sigla24,.sigla25,.sigla26,.sigla27,.sigla28,.sigla29,.sigla30,.sigla39,.sigla40,.sigla41,.sigla42,.sigla43,.sigla44,.sigla45,.sigla46,.sigla47,.sigla48,.sigla72,.sigla73,.sigla74,.sigla75,.sigla76,.sigla77,.sigla78,.sigla79,.sigla80,.sigla104,.sigla105,.sigla106,.sigla107,.sigla108,
+    .name21,.name22,.name23,.name24,.name25,.name26,.name27,.name28,.name29,.name30,.name39,.name40,.name41,.name42,.name43,.name44,.name45,.name46,.name47,.name48,.name72,.name73,.name74,.name75,.name76,.name77,.name78,.name79,.name80,.name104,.name105,.name106,.name107,.name108{
+        display: flex;
+        justify-content: center;
+        margin: 0px 1px 0px 0px;
+    }
+
+    /* Transition Metal*/
+        
     .Button13 ,.Button31 ,.Button49,.Button50,.Button81,.Button82,.Button83,.Button84,.Button85 {
         display: flex;
         height: 80px;
@@ -253,6 +291,111 @@
     }
     .sigla13,.sigla31,.sigla49,.sigla50,.sigla81,.sigla82, .sigla83,.sigla84,.sigla85,
     .name13,.name31,.name49,.name50,.name81,.name82,.name83,.name84,.name85{
+        display: flex;
+        justify-content: center;
+        margin: 0px 1px 0px 0px;
+    }
+
+    /* Lanthanide*/
+
+    .Button57 ,.Button58 ,.Button59,.Button60,.Button61,.Button62 ,.Button63,.Button64 ,.Button65 ,.Button66,.Button67,.Button68 ,.Button69 ,.Button70,.Button71{
+        display: flex;
+        height: 80px;
+        width: 80px;
+        margin:0px 0px 3px 10px;
+        background-color: var(--corL);
+        border: 1px solid var(--corL);
+        cursor: pointer;
+    }
+    .Dentro57, .Dentro58, .Dentro59,.Dentro60, .Dentro61, .Dentro62,.Dentro63, .Dentro64, .Dentro65,.Dentro66,.Dentro67, .Dentro68, .Dentro69,.Dentro70, .Dentro71{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 75px;
+        height: 75px;
+        background-color: var(--corL);
+    
+    }
+    .number57,.number58,.number59,.number60,.number61,.number62,.number63,.number64,.number65,.number66,.number67,.number68,.number69,.number70,.number71 ,
+    .name57,.name58,.name59,.name60,.name61,.name62,.name63,.name64,.name65,.name66,.name67,.name68,.name69,.name70,.name71,
+    .sigla57,.sigla58,.sigla59,.sigla60,.sigla61,.sigla62,.sigla63,.sigla64,.sigla65,.sigla66,.sigla67,.sigla68,.sigla69,.sigla70,.sigla71{
+        display: flex;
+        color: var(--corDesciçãoL);
+        margin-left: 10px;
+        background-color: var(--corL);
+    }
+    .sigla57,.sigla58,.sigla59,.sigla60,.sigla61,.sigla62,.sigla63,.sigla64,.sigla65,.sigla66,.sigla67,.sigla68,.sigla69,.sigla70,.sigla71,
+    .name57,.name58,.name59,.name60,.name61,.name62,.name63,.name64,.name65,.name66,.name67,.name68,.name69,.name70,.name71{
+        display: flex;
+        justify-content: center;
+        margin: 0px 1px 0px 0px;
+    }
+    
+    /* Actinide*/
+    
+    .Button89 ,.Button90 ,.Button91,.Button92,.Button93 ,.Button94,.Button95 ,.Button96 ,.Button97,.Button98,.Button99 ,.Button100 ,.Button101,.Button102,.Button103{
+        display: flex;
+        height: 80px;
+        width: 80px;
+        margin:0px 0px 3px 10px;
+        background-color: var(--corA);
+        border: 1px solid var(--corA);
+        cursor: pointer;
+    }
+    .Dentro89, .Dentro90, .Dentro91,.Dentro92, .Dentro93, .Dentro94,.Dentro95, .Dentro96, .Dentro97,.Dentro98,.Dentro99, .Dentro100, .Dentro101,.Dentro102, .Dentro103{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 75px;
+        height: 75px;
+        background-color: var(--corA);
+    
+    }
+    .number89,.number90,.number91,.number92,.number93,.number94,.number95,.number96,.number97,.number98,.number99,.number100,.number101,.number102,.number103,
+    .name89,.name90,.name91,.name92,.name93,.name94,.name95,.name96,.name97,.name98,.name99,.name100,.name101,.name102,.name103,
+    .sigla89,.sigla90,.sigla91,.sigla92,.sigla93,.sigla94,.sigla95,.sigla96,.sigla97,.sigla98,.sigla99,.sigla100,.sigla101,.sigla102,.sigla103{
+        display: flex;
+        color: var(--corDesciçãoA);
+        margin-left: 10px;
+        background-color: var(--corA);
+    }
+    .sigla89,.sigla90,.sigla91,.sigla92,.sigla93,.sigla94,.sigla95,.sigla96,.sigla97,.sigla98,.sigla99,.sigla100,.sigla101,.sigla102,.sigla103,
+    .name89,.name90,.name91,.name92,.name93,.name94,.name95,.name96,.name97,.name98,.name99,.name100,.name101,.name102,.name103{
+        display: flex;
+        justify-content: center;
+        margin: 0px 1px 0px 0px;
+    }
+
+    /* Unknown Chemical Properties*/
+    
+    .Button109 ,.Button110 ,.Button111,.Button112,.Button113 ,.Button114,.Button115 ,.Button116 ,.Button117,.Button118{
+        display: flex;
+        height: 80px;
+        width: 80px;
+        margin:0px 0px 3px 10px;
+        background-color: var(--corUCP);
+        border: 1px solid var(--corUCP);
+        cursor: pointer;
+    }
+    .Dentro109, .Dentro110, .Dentro111,.Dentro112, .Dentro113, .Dentro114,.Dentro115, .Dentro116, .Dentro117,.Dentro118{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 75px;
+        height: 75px;
+        background-color: var(--corUCP);
+    
+    }
+    .number109,.number110,.number111,.number112,.number113,.number114,.number115,.number116,.number117,.number118,
+    .name109,.name110,.name111,.name112,.name113,.name114,.name115,.name116,.name117,.name118,
+    .sigla109,.sigla110,.sigla111,.sigla112,.sigla113,.sigla114,.sigla115,.sigla116,.sigla117,.sigla118{
+        display: flex;
+        color: var(--corDesciçãoUCP);
+        margin-left: 10px;
+        background-color: var(--corUCP);
+    }
+    .sigla109,.sigla110,.sigla111,.sigla112,.sigla113,.sigla114,.sigla115,.sigla116,.sigla117,.sigla118,
+    .name109,.name110,.name111,.name112,.name113,.name114,.name115,.name116,.name117,.name118{
         display: flex;
         justify-content: center;
         margin: 0px 1px 0px 0px;
