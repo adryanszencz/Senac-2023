@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
+    background-color: #252525;
 }
 :root{
     /* Reactive Nonmetal*/
@@ -35,11 +35,63 @@
     /* Unknown Chemical Properties*/
     --corUCP:#e9e9ec;
     --corDesciçãoUCP:#3f374f;
+   
 
 
 }
-@media (max-width:500px){
+@media (max-width:600px){
     
+    .legenda {
+        position: fixed;
+        top: 30px;
+        left: 140px;
+    }
+    .name{
+        display: flex;
+        color: var(--corRN);
+    }
+    .sigla{
+        margin-left: 10px;
+    }
+    .categoria{
+        display: flex;
+        flex-direction: row;
+        color: var(--corRN);
+        margin-top: 5px;
+    }
+    .descriçoes{
+        color: var(--corRN);
+        margin-top: 50px;
+    }
+    .item{
+        margin-top: 5px;
+        display: flex;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .container{
         display: flex;
         flex-direction: column;
@@ -401,5 +453,5 @@
         margin: 0px 1px 0px 0px;
     }
 
-    position: fixed;
+    
 }
