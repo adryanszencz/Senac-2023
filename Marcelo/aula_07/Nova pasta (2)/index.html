@@ -8,20 +8,22 @@
     <title>Document</title>
 </head>
 <body>
+
     <div class="container">
         <div class="legenda">
             <div class="inicio">
                 <div class="name">
-                    <h1>Hydrogen</h1>
-                    <h1 class="sigla">(</h1><h1 class="dentrosigla">H</h1><h1>)</h1>
+                    <h1 id="namecoposto"></h1>
+                    <h1 class="sigla">(</h1><h1 id="siglacoposto"></h1><h1>)</h1>
                 </div>
                 <div class="categoria">
-                    <p>Reactive Nonmetal</p>
+                    <p id="categoriacoposto"></p>
                 </div>
+        
             </div>
 
             <div class="descriçao">
-                <p>Hydrogen is the most common element in the universe, making up about 75% of its mass.</p>
+                <p id="descriçaocoposto"></p>
             </div>
 
             <div class="descriçoes">
@@ -36,7 +38,7 @@
         </div>
         <div class="linha1">
             <div class="H">
-                <button type="button" class="Button1">
+                <button onclick="composto('H')" class="Button1">
                     <div class="Dentro1">
                         <h5 class="number1">1</h5>
                         <h1 class="sigla1">H</h1>
@@ -45,7 +47,7 @@
                 </button>
             </div>
            <div class="He">
-                <button type="button" class="Button2">
+                <button onclick="composto('He')" class="Button2">
                     <div class="Dentro2">
                         <h5 class="number2">2</h5>
                         <h1 class="sigla2">He</h1>
@@ -56,7 +58,7 @@
         </div>
         <div class="linha2">
             <div class="Li">
-                <button type="button" class="Button3">
+                <button class="Button3">
                     <div class="Dentro3">
                         <h5 class="number3">3</h5>
                         <h1 class="sigla3">Li</h1>
@@ -1121,5 +1123,6 @@
             <h1>khgfiuhgiuvflkjh</h1>
          </footer>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
