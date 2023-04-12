@@ -24,7 +24,7 @@
     --corPTM:#DCFAEB;
     --corDesciçãoPTM:#002c00;
     /* Transition Metal*/
-    --corTM:#f5ecfd;;
+    --corTM:#f5ecfd;
     --corDesciçãoTM:#6536ec;
     /* Lanthanide*/
     --corL:#E6f5ff;
@@ -39,77 +39,6 @@
 
 
 }
-
-.legenda {
-    position: fixed;
-    top: 30px;
-    left: 140px;
-}
-.name{
-    display: flex;
-    color: var(--corRN);
-}
-.sigla{
-    margin-left: 10px;
-}
-.categoria{
-    display: flex;
-    flex-direction: row;
-    color: var(--corRN);
-    margin-top: 5px;
-}
-.descriçao{
-    margin-top: 35px;
-    color: var(--corRN);
-}
-.descriçoes{
-    color: var(--corRN);
-    margin-top: 10px;
-}
-.item{
-    margin-top: 5px;
-    display: flex;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media (max-width:600px){
