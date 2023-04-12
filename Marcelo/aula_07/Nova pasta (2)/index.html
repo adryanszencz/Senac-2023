@@ -14,7 +14,7 @@
             <div class="inicio">
                 <div class="name">
                     <h1 id="namecoposto"></h1>
-                    <h1 class="sigla">(</h1><h1 id="siglacoposto"></h1><h1>)</h1>
+                    <h1 class="sigla" id="siglacoposto"></h1>
                 </div>
                 <div class="categoria">
                     <p id="categoriacoposto"></p>
@@ -27,13 +27,13 @@
             </div>
 
             <div class="descriçoes">
-                <div class="item Symbol"><p>Symbol:<p>H</p></p></div>
-                <div class="item Atomicmass"><p>Atomic mass:<p>1.00784 u</p></p></div>
-                <div class="item Density"><p>Density :<p>0.07099 g/cm3</p></p></div>
-                <div class="item Melting"><p>Melting:<p>-259.16 °C</p></p></div>
-                <div class="item Boiling"><p>Boiling:<p>-252.87 °C</p></p></div>
-                <div class="item Discovered"><p>Discovered by:<p>Henry Cavendish</p></p></div>
-                <div class="item discovery"><p>Year of discovery:<p>1766</p></p></div>
+                <div class="item Symbol"><p id="Symbolcomposto"></p></div>
+                <div class="item Atomicmass"><p id="Atomiccomposto"></p></div>
+                <div class="item Density"><p id="Densitycomposto"></p></div>
+                <div class="item Melting"><p id="Meltingcomposto"></p></div>
+                <div class="item Boiling"><p id="Boilingcomposto"></p></div>
+                <div class="item Discovered"><p id="Discoveredcomposto"></p></div>
+                <div class="item discovery"><p id="discoverycomposto"></p></div>
             </div>
         </div>
         <div class="linha1">
@@ -58,7 +58,7 @@
         </div>
         <div class="linha2">
             <div class="Li">
-                <button class="Button3">
+                <button onclick="composto('Li')" class="Button3">
                     <div class="Dentro3">
                         <h5 class="number3">3</h5>
                         <h1 class="sigla3">Li</h1>
