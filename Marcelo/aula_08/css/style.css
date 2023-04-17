@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+}
+.destaques{
+    display: grid;
+    grid-gap: .2rem;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: calc(100vh - 50px);
+    margin: 10px 30px 30px 30px;
+}
+.titulo{
+grid-row: 2/3;
+    background: rgba(0, 0, 0, .5);
+    color: #FDFDFD;
+    padding: .6rem;
+    text-align: center;
+    width: 100%;
+}
+
+.home{
+    width:20px;
+    height:20px;
+}
+.mobile{
+    width:20px;
+    height:20px;
+}
+.game{
+    width:20px;
+    height:20px;
+}
+.items{
+    margin-top: 10px;
+}
+.link:nth-child(1){
+    margin-left: 30px;
+}
+.link:nth-child(2){
+    margin-left: 10px;
+}
+.link:nth-child(3){
+    margin-left: 10px;
+}
+.destaquesPrincipal{
+    display: grid;
+    grid-template-rows: 90%;
+    background: url('../img/fortnite.jpg') center / cover no-repeat;
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+.destaquesSegundarias:nth-child(2){
+    display: grid;
+    grid-template-rows: 80%;
+    background: url('../img/pubg.jpg') center / cover no-repeat;
+    grid-column: 4;
+    grid-row: 1;
+
+}
+.destaquesSegundarias:nth-child(3){
+    display: grid;
+    grid-template-rows: 80%;
+    background: url('../img/slack.png') center / cover no-repeat;
+    grid-column: 4;
+    grid-row: 2;
+}
+.destaquesSegundarias:nth-child(4){
+    display: grid;
+    grid-template-rows: 80%;
+    background: url('../img/whatsapp.png') center / cover no-repeat;
+    grid-column: 4;
+    grid-row: 3;
+}
+.destaquesSegundarias:nth-child(5){
+    display: grid;
+    grid-template-rows: 80%;
+    background: url('../img/cs-go.jpg') center / cover no-repeat;
+    grid-column: 3;
+    grid-row: 3;
+}
+.destaquesCategorias{
+    grid-column: span 2;
+    grid-row: 3;
+}
+.listaCategoria{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-between;
+}
+.itemCategoria{
+    align-items: center;
+    background-color: #FDFDFD;
+    display: flex;
+    border: 5px solid transparent;
+    padding: 1rem;
+    width: 50%;
+}
+
+.aplicativosPopularesIcone{
+width:25px;
+height:25px;
+}
+.jogosPopularesIcone{
+    width:25px;
+    height:25px;
+}
+.emDestaqueIcone{
+    width:25px;
+height:25px;
+}
+.lançamentosIcone{
+width:25px;
+height:25px;
+}
