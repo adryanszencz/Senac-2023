@@ -57,16 +57,32 @@ body{
     border-radius: 5px;
 }
 .buttonEntrar{
-    margin-top: 15px;
+    margin-top: 20px;
     height: 50px; 
     background-color: rgb(255, 0, 0);
     border-color: rgb(255, 0, 0);
     color: white;
     border-radius: 5px;
 }
-.lembre{
-    margin-top: 5px;
+.buttonEntrar:hover {
+    background-color: rgb(255, 92, 92); 
+    border-color: rgb(255, 92, 92);
+    transition: 0.2s;
+    opacity: 0.7;
+}
+.baixo{
     display: flex;
+
+}
+.Lembre{
+    display: flex;
+    margin-top: 10px;
     flex-direction: row;
     color: white;
+    font-family: Arial;
+}
+
+.checkbox{
+    margin-top: 10px;
+    margin-right: 3px;
 }
