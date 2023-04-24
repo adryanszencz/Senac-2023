@@ -205,7 +205,7 @@
 @media (max-width: 768px) {
     .corpo{
         width: 90vw;
-        height: 100vh;
+        height: 90%;
     }
     .bloco1{
         grid-column: 1/3;
