@@ -1,24 +1,29 @@
 
-let pacientes = []
+let arrPacientes = []
 let saiu = true
 while(saiu){
-    const informaçoes = Number(prompt(`Pacientes em espera: 
-    ${pacientes}
-    1-Novo Paciente
-    2-Consultar Paciente
-    3-Sair`))
+
+    let pacientes = ''
+    for(let i = 0; i < arrPacientes.length; i++) {
+        pacientes += `${i + 1}° ${arrPacientes[i]}\n`
+    }
+
+    const informaçoes = Number(prompt(`Pacientes em espera:\n${pacientes} \n1-Novo Paciente\n2-Consultar Paciente\n3-Sair`))
     switch (informaçoes){
         case 1:
             const paciente = prompt('Digita o nome do paciente:')
-            pacientes.push(paciente)
-            alert(pacientes)
+            arrPacientes.push(paciente)
+            alert(arrPacientes)
         break
         case 2:
-            pacientes.shift()
+            arrPacientes.shift()
         break
         case 3:
-            saiu = false
-            alert("saiu")
+            const quersair = Number(prompt(`gostaria sair :\n 1-Sim \n 2-Nao`))
+            if(quersair == 1){
+                alert("saiu")
+                saiu = false
+            }
         break
     }
 }
